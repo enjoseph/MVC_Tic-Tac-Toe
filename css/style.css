@@ -1,0 +1,148 @@
+  body {
+  background-color: #292E28;
+
+  }
+
+
+#board {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+  opacity: 0.5;
+}
+
+
+.tile {
+  background-color: #292E28;
+  font-size: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+}
+
+.tile:hover {
+  cursor: pointer;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  width: 40%;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  opacity: 0.8;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15vh;
+  font-family: cursive;
+  height: 100vh;
+  background-color: #292E28;
+}
+
+.game {
+  padding: 1vh;
+  width: 47%;
+  height: 80%;
+}
+
+.status {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+
+h1 {
+  font-size: 8vh !important;
+  padding: 0;
+
+}
+
+
+.user {
+  font-size: 6vh;
+}
+
+
+.controll {
+  display: flex;
+}
+
+.controll button {
+  margin: 0 2vh;
+  border-radius: 1vh;
+}
+
+
+.customModal {
+  width: 100% !important;
+  position: absolute;
+  top: 1px;
+  display: none !important; 
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  z-index: 2;
+  height: 99vh !important;
+
+}
+
+
+.view {
+  display: flex !important;
+}
+
+.modalContainer {
+  background-color: #010104 !important;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 60%;
+  border: none;
+  border: 5px solid #AF8D6D;
+  border-radius: 15px;
+  color: white; 
+  font-family: cursive;
+  background-image: url(../assates/depositphotos_49172079-stock-illustration-back-to-school-background.jpg);
+  object-fit: contain;
+  background-size: 100%;
+  background-position-y: 40%;
+  background-repeat: no-repeat;
+  }
+
+  .modalContainer h1 {
+    font-size: 15vh !important;
+    font-weight: 400 !important;
+    opacity: 0.8;
+    
+  }
+
+  .modalContainer h2 {
+    font-size: 7vh !important;
+    font-weight: 400 !important;
+    opacity: 0.7;
+  }
+
+
+  .modalContainer button {
+    margin-top: 5vh;
+    border-radius: 15px;
+    color: white;
+    font-size: 7vh;
+    background-color: transparent;
+  }
